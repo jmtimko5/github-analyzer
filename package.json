@@ -1,0 +1,19 @@
+{
+  "name": "github-analyzer",
+  "version": "1.0.0",
+  "description": "An npm module that will all user to analyze pull requests to organizations repositories.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmtimko5/github-analyzer.git"
+  },
+  "author": "Joe Timko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmtimko5/github-analyzer/issues"
+  },
+  "homepage": "https://github.com/jmtimko5/github-analyzer#readme"
+}
