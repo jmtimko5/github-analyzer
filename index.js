@@ -1,3 +1,7 @@
 'use strict';
 
-module.exports = require('./lib/app');
+
+
+const GithubAnalyzer = require('./lib/GithubAnalyzer');
+
+module.exports = GithubAnalyzer;
