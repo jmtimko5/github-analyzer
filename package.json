@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/jmtimko5/github-analyzer/issues"
   },
-  "homepage": "https://github.com/jmtimko5/github-analyzer#readme"
+  "homepage": "https://github.com/jmtimko5/github-analyzer#readme",
+  "dependencies": {
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
 }
