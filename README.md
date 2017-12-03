@@ -7,7 +7,6 @@ A tiny JavaScript debugging utility modelled after Node.js core's debugging tech
 
 ```
 $ npm install debug
-
 ```
 ## Usage
 
