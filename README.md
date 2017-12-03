@@ -6,7 +6,7 @@ A tiny JavaScript debugging utility modelled after Node.js core's debugging tech
 ## Installation
 
 ```
-$ npm install debug
+$ npm install github-analyzer
 ```
 ## Usage
 
