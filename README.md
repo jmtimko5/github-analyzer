@@ -37,8 +37,9 @@ var result = myAnalyzer.searchPulls(
                                   },
                                     ["lodash.com", "lodash"]
                                 )
-
-//Not specifying any repository searches all the repositories in the organization.  Passing "start" as range_start tells the module to make the date range filter from the beginning of the repository until to the specified end date.  Similarly, passing "end" as range_end tells the module to use the end of time as the upper time range limit.
+```
+Not specifying any repository searches all the repositories in the organization.  Passing "start" as range_start tells the module to make the date range filter from the beginning of the repository until to the specified end date. Similarly, passing "end" as range_end tells the module to use the end of time as the upper time range limit.
+```
 var result_two = myAnalyzer.searchPulls(
                                   {
 
@@ -50,8 +51,5 @@ var result_two = myAnalyzer.searchPulls(
                                                 }
                                   }  
                                   )
-
-
-
 ```
 Note: Whether you want to restrict the pulls returned to match a single or multiple parameter such as ```'user'```, the value of the parameter must be in an array.
