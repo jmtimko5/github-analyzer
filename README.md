@@ -1,5 +1,5 @@
 # github-analyzer
-An npm module that will allow user to search through pull requests to an organizations repositories.
+An npm module that will allow users to search through pull requests to an organization's repositories.
 
 ## Installation
 
