@@ -4,7 +4,7 @@
   "description": "An npm module that will all user to analyze pull requests to organizations repositories.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "NODE_TLS_REJECT_UNAUTHORIZED=0 mocha $(find test -path '*test.js') --compilers js:babel-register --recursive --reporter spec"
   },
   "repository": {
     "type": "git",
